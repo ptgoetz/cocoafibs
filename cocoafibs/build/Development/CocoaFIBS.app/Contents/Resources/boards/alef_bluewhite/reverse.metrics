@@ -1,0 +1,53 @@
+320,165		// player die left
+382,165 		// player die right
+94,165		// opponent die left
+156,165		// opponent die right
+457,312		// player owns cube
+457,15		// opponent owns cube
+14,163		// neutral cube
+125,163		// doubled cube
+235,150		// player bar bottom left corner
+235,200		// opponent bar top left corner
+14,346		// player home bottom left corner
+14,8			// opponent home top left corner
+400,155		// roll dice
+105,148		// resign
+457,164		// reject
+320, 165		// join
+237,162		// undo
+43,143		// upper pip numbers
+43,198		// lower pip numbers
+419,8			// points start upper right 
+388,8
+357,8
+326,8
+295,8
+264,8
+202,8
+171,8
+140,8
+109,8
+78,8
+47,8
+47,346
+78,346
+109,346
+140,346
+171,346
+202,346
+264,346
+295,346
+326,346
+357,346
+388,346
+419,346
+31,134	// point dimension
+27,27		// piece dimension
+27,8		// home piece dim
+38,45		// roll dice dim
+60,22		// join dim
+26,26		// reject dim
+21,21		// die dim
+22,29		// undo dim
+26,26		// cube dim
+67,60		// resign dim

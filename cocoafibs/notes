@@ -1,0 +1,41 @@
+		//[[NSColor colorWithPatternImage:[NSImage imageNamed:@"playerPiece"]] set];
+		//[NSBezierPath fillRect:myRectBottom];
+		
+
+
+off center chips
+
+
+sudo /usr/local/bin/tcpflow -i en0 -c port
+
+NSString *stringToSend = [NSString stringWithFormat:@"invite %@", [self selectedName]];
+
+
+0-06 18:57:03.408 AGFIBS1[841] i am here
+2004-10-06 18:57:03.417 AGFIB
+
+or -1
+2004-10-06 19:00:30.598 AGFIBS1[841] color -1
+2004-10-06 19:00:30.604 AGFIBS1[841] (31)board:You:histiz:3:0:0:0:0:0:1:1:3:4:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:-4:-1:0:-1:6:2:0:0:2:0:1:0:-1:1:25:0:10:6:0:0:2:0:0:0
+2004-10-06 19:00:30.605 AGFIBS1[841] (27)
+
+
+
+
+	
+	NSEnumerator *enumerator = [gameBoard objectEnumerator];
+	id aObject;
+
+	while (aObject = [enumerator nextObject]) {
+		NSLog(@"%d", [aObject pipNumber]); 
+    }
+	
+	
+	NSEnumerator *enumerator = [gameBoard objectEnumerator];
+	id aObject;
+int ii = 0;
+
+	while (aObject = [enumerator nextObject]) {
+		NSLog(@"i %d - pipNumber %d - ownedBy %d",ii, [aObject pipNumber], [aObject ownedBy]); 
+		ii++;
+    }

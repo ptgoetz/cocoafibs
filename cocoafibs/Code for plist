@@ -1,0 +1,96 @@
+NSArray *leftPipOriginsX = [NSArray arrayWithObjects:
+				[NSNumber numberWithDouble:47.5],
+				[NSNumber numberWithDouble:78.5],
+				[NSNumber numberWithDouble:109.5],
+				[NSNumber numberWithDouble:140.5],
+				[NSNumber numberWithDouble:171.5],
+				[NSNumber numberWithDouble:202.5],
+				[NSNumber numberWithDouble:264.5],
+				[NSNumber numberWithDouble:295.5],
+				[NSNumber numberWithDouble:326.5],
+				[NSNumber numberWithDouble:357.5],
+				[NSNumber numberWithDouble:388.5],
+				[NSNumber numberWithDouble:419.5],
+				[NSNumber numberWithDouble:419.5],
+				[NSNumber numberWithDouble:388.5],
+				[NSNumber numberWithDouble:357.5],
+				[NSNumber numberWithDouble:326.5],
+				[NSNumber numberWithDouble:295.5],
+				[NSNumber numberWithDouble:264.5],
+				[NSNumber numberWithDouble:202.5],
+				[NSNumber numberWithDouble:171.5],
+				[NSNumber numberWithDouble:140.5],
+				[NSNumber numberWithDouble:109.5],
+				[NSNumber numberWithDouble:78.5],
+				[NSNumber numberWithDouble:47.5],
+			nil];
+			
+			NSArray *rightPipOriginsX = [NSArray arrayWithObjects:
+				[NSNumber numberWithDouble:419.5],
+				[NSNumber numberWithDouble:388.5],
+				[NSNumber numberWithDouble:357.5],
+				[NSNumber numberWithDouble:326.5],
+				[NSNumber numberWithDouble:295.5],
+				[NSNumber numberWithDouble:264.5],
+				[NSNumber numberWithDouble:202.5],
+				[NSNumber numberWithDouble:171.5],
+				[NSNumber numberWithDouble:140.5],
+				[NSNumber numberWithDouble:109.5],
+				[NSNumber numberWithDouble:78.5],
+				[NSNumber numberWithDouble:47.5],
+				[NSNumber numberWithDouble:47.5],
+				[NSNumber numberWithDouble:78.5],
+				[NSNumber numberWithDouble:109.5],
+				[NSNumber numberWithDouble:140.5],
+				[NSNumber numberWithDouble:171.5],
+				[NSNumber numberWithDouble:202.5],
+				[NSNumber numberWithDouble:264.5],
+				[NSNumber numberWithDouble:295.5],
+				[NSNumber numberWithDouble:326.5],
+				[NSNumber numberWithDouble:357.5],
+				[NSNumber numberWithDouble:388.5],
+				[NSNumber numberWithDouble:419.5],
+			nil];
+			
+		NSDictionary *boardAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
+			leftPipOriginsX,@"leftPipOriginsX",
+			rightPipOriginsX,@"rightPipOriginsX",
+			
+			
+			[NSNumber numberWithInt:27.5],@"chipSize",
+			[NSNumber numberWithInt:319],@"topRowY",
+			[NSNumber numberWithInt:216],@"topRowHomeY",
+			[NSNumber numberWithInt:9],@"bottomRowY",
+			[NSNumber numberWithInt:8],@"chipHeightInHome",
+			[NSNumber numberWithInt:235],@"xChordsForBar",
+			[NSNumber numberWithInt:200],@"yChordsForPlayerBar",
+			[NSNumber numberWithInt:135],@"yChordsForOpponentBar",
+			
+			[NSNumber numberWithInt:320],@"xChordsForPlayerDiceLeft",
+			[NSNumber numberWithInt:165],@"yChordsForPlayerDiceRight",
+			
+			[NSNumber numberWithInt:382],@"xChordsForPlayerDiceRight",
+			[NSNumber numberWithInt:165],@"yChordsForPlayerDiceRight",
+			
+			[NSNumber numberWithInt:94],@"xChordsForOpponentDiceLeft",
+			[NSNumber numberWithInt:165],@"yChordsForOpponentDiceLeft",
+			
+			[NSNumber numberWithInt:156],@"xChordsForOpponentDiceRight",
+			[NSNumber numberWithInt:165],@"yChordsForOpponentDiceRight",
+			
+			[NSNumber numberWithInt:280],@"yChordsForLeftOpponentDieInHome",
+			[NSNumber numberWithInt:250],@"yChordsForRightOpponentDieInHome",
+			[NSNumber numberWithInt:80],@"yChordsForLeftPlayerDieInHome",
+			[NSNumber numberWithInt:50],@"yChordsForRightPlayerDieInHome",
+			[NSNumber numberWithInt:26],@"sizeOfDiceImage",
+			
+			[NSNumber numberWithInt:458],@"xChordsForHomeRight",
+			[NSNumber numberWithInt:16],@"xChordsForDiceOnSideRight",
+			[NSNumber numberWithInt:13],@"xChordsForCubeRight",
+			[NSNumber numberWithInt:14],@"xChordsForHomeLeft",
+			[NSNumber numberWithInt:460],@"xChordsForDiceOnSideLeft",
+			[NSNumber numberWithInt:458],@"xChordsForCubeLeft",
+			
+			nil];
+			
+			[boardAttributes writeToFile:@"boards/test.plist" atomically:YES];

@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'AGFIBS1' target in the 'AGFIBS1' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+#define AGFIBS_PATH_TO_BOARDS @"/Library/Application Support/CocoaFIBSS/boards"
